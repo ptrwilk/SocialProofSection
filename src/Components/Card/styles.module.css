@@ -1,0 +1,39 @@
+@import url('../../colors.css');
+
+.container{
+    width: 330px;
+    padding: 2rem;
+    border-radius: .5rem;
+    background: var(--very-dark-magenta);
+}
+
+.container .user-info{
+    display: flex;
+    align-items: center;
+}
+
+.container .user-info .name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.container .user-info .title{
+    font-weight: 500;
+    color: var(--soft-pink);
+}
+
+.container .comment{
+    margin-top: 1rem;
+    font-weight: 500;
+    color: var(--light-grayish-magenta);
+}
+
+@media (max-width : 1080px) {
+    .container{
+        width : 100%
+    }
+}

@@ -1,6 +1,23 @@
+@import url('./colors.css');
+
 .app{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 0 2rem;
+    background: var(--white);
+}
+
+.app .img-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.app .img-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

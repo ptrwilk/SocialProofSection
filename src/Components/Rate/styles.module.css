@@ -1,0 +1,34 @@
+@import url('../../colors.css');
+
+.container{
+    display: flex;
+    padding: .9rem 2rem;
+    width: 410px;
+    border-radius: .5rem;
+    background: var(--light-grayish-magenta);
+}
+
+.container .stars{
+    display: flex;
+    gap: .5rem;
+}
+
+.container .name{
+    margin-left: 2rem;
+    font-weight: 700;
+    color : var(--very-dark-magenta)
+}
+
+@media (max-width : 1080px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: .8rem 2rem;
+        gap: .8rem;
+    }
+
+    .container .name{
+        margin-left: 0;
+    }
+}
